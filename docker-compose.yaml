@@ -28,7 +28,7 @@ services:
     - cart
 
   redis:
-    image: redis:v1
+    image: redis
     container_name: redis
 
 
