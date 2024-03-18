@@ -46,6 +46,12 @@ services:
     - redis
     - mongodb
 
+  mysql:
+    image: mysql:v1
+    container_name: mysql
+
+    
+
 
   
            
